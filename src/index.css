@@ -100,12 +100,14 @@ header {
     font-weight: 400;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 10px;
+    color: black;
 }
 
 .main--search-button:hover {
     background-color: #ffe1d0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    color: black;
 }
 
 .main--searched-item {
@@ -339,4 +341,8 @@ footer {
         font-size: 12px;
         width: 90%;
     }
+    .footer--own-photo {
+        width: 100px;
+    }
+
   }
