@@ -4,6 +4,7 @@
 
 body {
     margin: auto;
+    overflow-x: hidden;
 }
 
 a {
@@ -342,7 +343,8 @@ footer {
         width: 90%;
     }
     .footer--own-photo {
-        width: 100px;
+        width: 25%;
+        height: 25%;
     }
 
   }
