@@ -254,7 +254,7 @@ footer {
     }
 
     .footer--own-photo {
-        margin-right: 0;
+        margin-right: 10px;
         max-width: 25%;
         max-height: 25%;
     }
@@ -347,5 +347,10 @@ footer {
     .card--measurements {
         font-size: 12px;
         width: 90%;
+    }
+
+    .footer--own-photo {
+        margin-right: 10px;
+        width: 200px;
     }
 }
