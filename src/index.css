@@ -351,7 +351,6 @@ footer {
 
     .footer--own-photo {
         margin-right: 10px;
-        width: 200px;
-        object-fit: contain;
+        align-self: flex-start;
     }
 }

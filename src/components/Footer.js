@@ -5,7 +5,7 @@ import { GoMarkGithub } from "react-icons/go";
 function Footer() {
     return(
         <footer>
-            <img alt="Portrait picture" className="footer--own-photo" src={ownPhoto} />
+                <img alt="Portrait picture" className="footer--own-photo" src={ownPhoto} />
             <p className="footer--text">
                 Hello! I'm a third year student from <span className="bold">TAMK</span> studying Business Information Systems.
                 <span className="bold"> UI</span> and <span className="bold">UX</span> are my main interests and I'm eager to learn more about them through own projects and hopefully in the future work.
