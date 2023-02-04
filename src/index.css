@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* Header styling */
+
+header {
+    background-color: #FFE4D6;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.header--icon {
+    width: 38px;
+    margin-left: 10px;
+}
+
+.header--text {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Front page styling */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main--intro {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.intro--img {
+    width: 400px;
+    margin: 40px;
+}
+
+.intro--text {
+    font-family: 'Playfair Display', serif;
+    margin: 40px;
+}
+
+.intro--italic-pink {
+    font-style: italic;
+    color: #FFAB7F;
+}
+
+.intro--text-header {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.intro--text-body {
+    font-weight: 400;
+}
+
+/* Search buttons styling */
+
+.main--search {
+    margin: 80px;
+}
+.main--search-bar {
+    text-align: center;
+    margin: 40px;
+}
+
+.main--search-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.main--search-button {
+    font-family: 'Playfair Display', serif;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #fce8dd;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.main--search-button:hover {
+    background-color: #ffe1d0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.main--searched-item {
+    font-family: 'Playfair Display', serif;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Card closed styling */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--base {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fffdfc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 420px;
+}
+
+.card--base:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card--img {
+    width: 300px;
+    margin: 10px;
+}
+
+.card--header {
+    font-family: 'Playfair Display', serif;
+    margin: 10px;
+}
+
+.card--to-open {
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 10px;
+    color: #FFAB7F;
+}
+
+/* Card open styling */
+
+.card--instructions {
+    font-family: 'Poppins', sans-serif;
+    width: 280px;
+    margin-top: 40px;
+    margin: 0 0 0 20px;
+    padding: 10px;
+}
+
+.card--measurements {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    margin: 0 0 0 30px;
+}
+
+.card-ingredient {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+/* Footer styling */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd9c6;
+    height: 150px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.footer--icon {
+    margin: 6px;   
+}
+
+.footer--own-photo {
+    margin-right: 20px;
+}
+
+.footer--text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 20%;
+}
+
+.footer--info {
+    font-family: 'Playfair Display', serif;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.footer--name {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.footer--github {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+
+.footer--email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+/* Max width 800px styling */
+
+@media (max-width: 800px) {
+
+    .main--intro {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+
+    footer {
+        margin-bottom: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer--own-photo {
+        width: 25%;
+    }
+
+    .footer--text {
+        width: 80%;
+    }
+
+    .footer--info {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer--number {
+        font-size: 12px;
+    }
+    
+    .footer--email {
+        font-size: 12px;
+    }
+
+}
+
+/* Max width 400px styling */
+
+@media (max-width: 400px) {
+    .main--intro {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .intro--img {
+        width: 80%;
+        margin: 20px;
+    }
+
+    .intro--text-header {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .intro--text-body {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .main--search {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .main--search-text {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 5px;
+    }
+    
+    .main--search-button {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .main--searched-item {
+        font-size: 24px;
+    }
+    
+    .card-container {
+        flex-direction: column;
+    }
+    
+    .card--base {
+        min-height: 310px;
+    }
+
+    .card--img {
+        width: 94%;
+        margin: 10px;
+    }
+
+    .card--instructions {
+        font-size: 14px;
+        width: 85%;
+    }
+    
+    .card--measurements {
+        font-size: 12px;
+        width: 90%;
+    }
+  }
