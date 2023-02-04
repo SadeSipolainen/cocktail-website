@@ -255,8 +255,7 @@ footer {
 
     .footer--own-photo {
         margin-right: 10px;
-        max-width: 25%;
-        max-height: 25%;
+        width: 25%;
     }
 
     .footer--text {
