@@ -1,5 +1,5 @@
 import ownPhoto from "../images/ownPhoto.jpg";
-import { BiHappyBeaming, BiPhone, BiAt } from "react-icons/bi";
+import { BiHappyBeaming, BiAt } from "react-icons/bi";
 import { GoMarkGithub } from "react-icons/go";
 
 function Footer() {

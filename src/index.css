@@ -199,7 +199,6 @@ footer {
 
 .footer--own-photo {
     margin-right: 20px;
-    max-width: 20%;
 }
 
 .footer--text {
@@ -244,9 +243,6 @@ footer {
 
     footer {
         margin-bottom: 0;
-    }
-
-    footer {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -274,7 +270,6 @@ footer {
     .footer--email {
         font-size: 12px;
     }
-
 }
 
 /* Max width 400px styling */
@@ -346,10 +341,5 @@ footer {
     .card--measurements {
         font-size: 12px;
         width: 90%;
-    }
-
-    .footer--own-photo {
-        margin-right: 10px;
-        align-self: flex-start;
     }
 }
