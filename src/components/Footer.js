@@ -13,7 +13,7 @@ function Footer() {
             </p>
             <div className="footer--info">
                 <h3 className="footer--name">Säde Sipolainen</h3>
-                <p className="footer--number"><span className="footer--icon">{<BiAt />}</span>saede.sipo@gmail.com</p>
+                <p className="footer--email"><span className="footer--icon">{<BiAt />}</span>saede.sipo@gmail.com</p>
                 <a href="https://github.com/SadeSipolainen" className="footer--github"><span className="footer--icon">{<GoMarkGithub />}</span>Github</a>
             </div>
         </footer>
