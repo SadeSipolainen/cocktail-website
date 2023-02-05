@@ -186,11 +186,11 @@ header {
 
 footer {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
     background-color: #ffd9c6;
-    height: 150px;
     margin-top: 50px;
     padding: 20px;
+    padding-top: 10px;
 }
 
 .footer--icon {
@@ -198,7 +198,10 @@ footer {
 }
 
 .footer--own-photo {
+    margin-top: 10px;
     margin-right: 20px;
+    width: 10%;
+    height: auto;
 }
 
 .footer--text {
@@ -250,8 +253,9 @@ footer {
     }
 
     .footer--own-photo {
+        margin-top: 0;
         margin-right: 10px;
-        width: 25%;
+        width: 20%;
     }
 
     .footer--text {
